@@ -1,0 +1,96 @@
+.chat-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 460px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.chat-header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header:hover {
+    background: #0056b3;
+}
+
+.chat-header .hint {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.chat-body {
+	width: 350;
+    height: 330px;
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f7f7f7;
+}
+
+.chat-footer {
+    padding: 10px;
+    display: flex;
+    background: #f1f1f1;
+}
+
+.chat-footer textarea {
+    flex: 1;
+    padding: 5px;
+    resize: none;
+}
+
+.chat-footer button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-toggle {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.message strong {
+    display: block;
+	margin-right: 5px;
+}
+
+.message .message-text {
+    display: inline;
+    margin: 5px 0;
+}
+
+.message small {
+    display: block;
+    color: #888;
+    font-size: 0.8em;
+	margin-top: 2px;
+}
