@@ -1,6 +1,6 @@
 # php-xampp-server
 
-XAMPP-based web site. Download repo into the xampp\htdocs\[your_site_name] folder.
+XAMPP-based web site. Download repo into the xampp\htdocs\[your_site_name] folder. <br />
 In order to work project relies on connection to the MySQL database via specific user, use scripts below to create DB schema and required user.
 
 ```
